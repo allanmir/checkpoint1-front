@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cidade de São Paulo</title>
+    <link rel="shortcut icon" href="./imagens/favicon.png" type="image/x-icon">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Comforter&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+    <style>
+
+        *{
+            color: white;
+            margin: 0;
+            padding: 0;
+        }
+
+        .titulo {
+            font-family: 'Comforter', cursive;
+            text-align: center;
+            font-size: 50px;
+            padding: 20px;
+            margin: 0;
+            color: #000;;
+            background-color: #f9efe35e;
+            animation: bg 4s infinite;
+            
+        }
+
+        .sub {
+            font-family: 'Comforter', cursive;
+            text-align: center;
+            font-size: 50px;
+            padding: 50px;
+            margin: 0;
+            color: rgb(255, 255, 255);;
+            background-color: #2929295e;
+        }
+
+       .estrutura {
+           background-image: url(imagens/sp.jpg);
+           background-repeat: no-repeat;
+           background-size: cover;
+           background-attachment: fixed
+        }
+
+       p {
+            font-family: 'Montserrat', sans-serif;
+            text-align: center;
+            font-size: 25px;
+            margin: 50px;
+            color: #000;;
+       }
+
+       strong {
+           color: black;
+       }
+
+       iframe {
+        display: block;
+        margin: 0 auto;
+        padding: 0px 0px 50px 0px;
+       }
+
+       li {
+        font-family: 'Montserrat', sans-serif;
+        text-align: center;
+        font-size: 20px ;
+        color: rgb(255, 255, 255);;
+        background-color: #2929295e;
+        margin: 0px 0px 0px 0px;
+       }
+
+       .box {
+           padding: 0 0 50px 0;
+       }
+
+       @keyframes bg {
+	    50% {
+		color: rgb(255, 255, 255);
+	   }
+       }
+
+       .final {
+           text-align: center;
+           padding: 50px;
+        }
+
+        img {
+            width: 200px;
+            height: auto;
+            margin: -50px;
+            padding: 0 0 20px 0;
+        }
+
+        .criador{
+            text-align: center;
+            margin: 20px 0 0 0;
+            padding: 20px 0 8px 0;
+            color: #FFFFFF;
+            font-family: "Montserrat", Sans-serif;
+            font-size: 12px;
+            font-weight: 900;
+            text-shadow: black 0.1em 0.1em 0.2em;
+        }
+
+        .escola {
+            color: red;
+        }
+
+    </style>
+</head>
+<body class="estrutura">
+    <header class="topo">
+        <h1 class="titulo">Cidade de São Paulo</h1>
+    </header>
+    <main class="descricao">
+        <p class="sobre">
+            <strong>São Paulo</strong> é a cidade brasileira mais influente no cenário global, sendo, em 2016, a 11.ª <strong>cidade mais <br> globalizada do planeta</strong>, recebendo a classificação de cidade global alfa, por parte do <br> Globalization and World Cities Study Group & Network (GaWC).
+        </p>
+        <iframe class="video" width="1280" height="720" src="https://www.youtube.com/embed/-h2DNj-QaYY?autoplay=1" title="Vídeo de SP" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        <h1 class="sub">Curiosidades</h1>
+            <li>São Paulo é a segunda cidade que mais consome pizza no mundo.</li>
+            <li>Considerada a capital mundial dos helicópteros.</li>
+            <li>Jabaquara e Saúde que aconteceu a primeira viagem de metrô na cidade, em 1972.</li>
+            <li class="box">É na zona Leste de São Paulo que fica o maior da América Latina.</li>
+    </main>
+    <footer class="final">
+        <a href="https://facebook.com/PrefSP/" target="_blank" class="final">
+            <img src="./imagens/facebook.png" alt="Facebook Cidade de São Paulo">
+        </a>
+        <a href="https://www.instagram.com/prefsp/" target="_blank" class="final">
+            <img src="./imagens/instagram.png" alt="Instagram Cidade de São Paulo">
+        </a>
+    </footer>
+    <h2 class="criador">
+        Criado por <a href="https://instagram.com/masoqallan" target="_blank"> Allan Miranda </a> - Aluno da <strong class="escola">Digital House</strong>.
+    </h2>
+</body>
+</html>
